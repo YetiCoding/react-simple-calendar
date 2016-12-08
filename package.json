@@ -1,0 +1,54 @@
+{
+  "name": "react-calendar",
+  "version": "1.0.0",
+  "description": "A simple calendar component by react",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --hot --content-base --host 127.0.0.1  --history-api-fallback",
+    "build": "webpack -p --bail --progress --profile --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YetiCoding/react-simple-calendar.git"
+  },
+  "keywords": [
+    "calendar",
+    "component",
+    "react",
+    "demo"
+  ],
+  "author": "yeti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YetiCoding/react-simple-calendar/issues"
+  },
+  "homepage": "https://github.com/YetiCoding/react-simple-calendar#readme",
+  "dependencies": {
+    "normalize.css": "^5.0.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.7",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "css-loader": "^0.23.1",
+    "es6-loader": "^0.2.0",
+    "eslint": "^3.11.1",
+    "eslint-plugin-react": "^6.8.0",
+    "file-loader": "^0.9.0",
+    "html-loader": "^0.4.3",
+    "html-webpack-plugin": "^2.22.0",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "open-browser-webpack-plugin": "0.0.3",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.15.0"
+  }
+}
